@@ -1,5 +1,164 @@
-Crypto Visual: Classic Encryption & Cryptanalysis SuiteCrypto Visual is an interactive web-based cryptographic suite developed for the CSE721 (Introduction to Cryptography) course. This application serves as an educational tool to visualize and execute classic encryption/decryption algorithms and conduct known-plaintext attacks on the Hill Cipher.🚀 Live DemoAccess the live application here:https://crypto-visual-git-main-shazids-projects.vercel.app/✨ FeaturesPart 1: Classic Crypto SystemsCaesar Cipher: Real-time alphabet mapping with dynamic shift visualization.Affine Cipher: Comprehensive breakdown of the Extended Euclidean Algorithm for GCD and Modular Inverse calculation.Playfair Cipher: Interactive 5x5 matrix interface with highlighting for Row, Column, and Rectangle substitution rules.Hill Cipher (2x2): Step-by-step vector-matrix multiplication logging for both encryption and decryption.Part 2: Crypto CrackerHill Cracker: A specialized module for Known Plaintext Attacks. It recovers a $2 \times 2$ key matrix by calculating the inverse of a plaintext matrix and multiplying it by the ciphertext matrix $\pmod{26}$.🛠️ Technical StackFramework: React 19Build Tool: ViteStyling: Tailwind CSS 4.0 (for modern, responsive UI/UX)Icons: Lucide ReactLogic: Custom React Hooks for cipher engines and modular math utilities.💻 Installation & SetupTo run this tool locally, you must have Node.js (v18.0 or higher) installed.1. Clone the Repositorygit clone [https://github.com/ShazidMahbub/crypto-visual.git](https://github.com/ShazidMahbub/crypto-visual.git)
+The application is designed to help students understand **classic encryption algorithms** and **basic cryptanalysis techniques** through real-time visualization, step-by-step mathematical breakdowns, and interactive user interfaces. It emphasizes *learning-by-visualization*, making cryptographic concepts such as modular arithmetic, matrix inversion, and substitution rules intuitive and accessible.
+
+---
+
+## 🚀 Live Demo
+
+🔗 **Access the live application:** [https://crypto-visual-git-main-shazids-projects.vercel.app/](https://crypto-visual-git-main-shazids-projects.vercel.app/) 
+
+---
+
+## ✨ Features
+
+### 🔹 Part 1: Classic Cryptographic Systems
+
+* **Caesar Cipher**
+* Real-time alphabet mapping with dynamic shift visualization.
+
+
+
+
+* **Affine Cipher**
+* Comprehensive breakdown of the Extended Euclidean Algorithm for GCD and Modular Inverse calculation.
+
+
+
+
+* **Playfair Cipher**
+* Interactive  matrix interface with highlighting for Row, Column, and Rectangle substitution rules.
+
+
+
+
+* **Hill Cipher (2x2)**
+* Step-by-step vector-matrix multiplication logging for both encryption and decryption.
+
+
+
+
+
+### 🔹 Part 2: Crypto Cracker
+
+* **Hill Cracker**
+* A specialized module for Known Plaintext Attacks.
+
+
+* Recovers a  key matrix by calculating the inverse of a plaintext matrix and multiplying it by the ciphertext matrix (mod 26).
+
+
+
+
+
+---
+
+## 🛠 Technical Stack
+
+* 
+**Framework:** React 19 
+
+
+* 
+**Build Tool:** Vite 
+
+
+* 
+**Styling:** Tailwind CSS 4.0 for a modern, responsive UI/UX 
+
+
+* 
+**Icons:** Lucide React 
+
+
+* 
+**Logic:** Custom React Hooks for cipher engines and modular math utilities 
+
+
+
+---
+
+## ⚙️ Installation & Setup
+
+To run this tool locally, you must have **Node.js (v18.0 or higher)** installed.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ShazidMahbub/crypto-visual.git
 cd crypto-visual
-2. Install Dependenciesnpm install
-3. Run the Applicationnpm run dev
-The app will be available at http://localhost:5173.🖥️ Operating System Specific InstructionsWindowsInstall Node.js from nodejs.org.Open PowerShell or Command Prompt as an Administrator.Navigate to the project folder.If you face a script execution error, run:Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUserExecute npm install and npm run dev.macOS / LinuxInstall Node.js using Homebrew (brew install node) or your distribution's package manager.Open the Terminal.Navigate to the project folder.Ensure you have proper permissions for the node_modules directory.Execute npm install and npm run dev.📜 Academic CreditsCourse: CSE721 - Introduction to CryptographyDeveloper: Md. Shazid Bin Mahbub (16301077)Design Acknowledgement: Gemini (LLM) was utilized specifically for assisting with the Tailwind CSS UI design and responsive layout implementation.
+
+```
+
+
+
+### 2. Install Dependencies
+
+```bash
+npm install
+
+```
+
+
+
+### 3. Run the Application
+
+```bash
+npm run dev
+
+```
+
+The app will be available at **http://localhost:5173**.
+
+---
+
+## 💻 OS Specific Instructions
+
+### Windows
+
+1. Install Node.js from nodejs.org.
+
+
+2. Open PowerShell or Command Prompt as an **Administrator**.
+
+
+3. Navigate to the project folder.
+
+
+4. If you face a script execution error, run: `Set-ExecutionPolicy ExecutionPolicy RemoteSigned -Scope CurrentUser`.
+
+
+5. Execute `npm install` and `npm run dev`.
+
+
+
+### macOS/Linux
+
+1. Install Node.js using Homebrew (`brew install node`) or your distribution's package manager.
+
+
+2. Open the Terminal.
+
+
+3. Navigate to the project folder.
+
+
+4. Ensure you have proper permissions for the `node_modules` directory.
+
+
+5. Execute `npm install` and `npm run dev`.
+
+
+
+---
+
+## 🎓 Academic Credits
+
+* 
+**Course:** CSE721 - Introduction to Cryptography 
+
+
+* 
+**Developer:** Md. Shazid Bin Mahbub (16301077) 
+
+
+* 
+**Design Acknowledgement:** Gemini (LLM) was utilized specifically for assisting with the Tailwind CSS UI design and responsive layout implementation.
