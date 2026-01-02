@@ -53,24 +53,19 @@ The application is designed to help students understand **classic encryption alg
 
 ## 🛠 Technical Stack
 
-* 
-**Framework:** React 19 
+* **Framework:** React 19 
 
 
-* 
-**Build Tool:** Vite 
+* **Build Tool:** Vite 
 
 
-* 
-**Styling:** Tailwind CSS 4.0 for a modern, responsive UI/UX 
+* **Styling:** Tailwind CSS 4.0 for a modern, responsive UI/UX 
 
 
-* 
-**Icons:** Lucide React 
+* **Icons:** Lucide React 
 
 
-* 
-**Logic:** Custom React Hooks for cipher engines and modular math utilities 
+* **Logic:** Custom React Hooks for cipher engines and modular math utilities 
 
 
 
@@ -152,13 +147,10 @@ The app will be available at **http://localhost:5173**.
 
 ## 🎓 Academic Credits
 
-* 
-**Course:** CSE721 - Introduction to Cryptography 
+* **Course:** CSE721 - Introduction to Cryptography 
 
 
-* 
-**Developer:** Md. Shazid Bin Mahbub (16301077) 
+* **Developer:** Md. Shazid Bin Mahbub (16301077) 
 
 
-* 
-**Design Acknowledgement:** Gemini (LLM) was utilized specifically for assisting with the Tailwind CSS UI design and responsive layout implementation.
+* **Design Acknowledgement:** Gemini (LLM) was utilized specifically for assisting with the Tailwind CSS UI design and responsive layout implementation.
