@@ -1,16 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Crypto Visual: Classic Encryption & Cryptanalysis SuiteCrypto Visual is an interactive web-based cryptographic suite developed for the CSE721 (Introduction to Cryptography) course. This application serves as an educational tool to visualize and execute classic encryption/decryption algorithms and conduct known-plaintext attacks on the Hill Cipher.🚀 Live DemoAccess the live application here:https://crypto-visual-git-main-shazids-projects.vercel.app/✨ FeaturesPart 1: Classic Crypto SystemsCaesar Cipher: Real-time alphabet mapping with dynamic shift visualization.Affine Cipher: Comprehensive breakdown of the Extended Euclidean Algorithm for GCD and Modular Inverse calculation.Playfair Cipher: Interactive 5x5 matrix interface with highlighting for Row, Column, and Rectangle substitution rules.Hill Cipher (2x2): Step-by-step vector-matrix multiplication logging for both encryption and decryption.Part 2: Crypto CrackerHill Cracker: A specialized module for Known Plaintext Attacks. It recovers a $2 \times 2$ key matrix by calculating the inverse of a plaintext matrix and multiplying it by the ciphertext matrix $\pmod{26}$.🛠️ Technical StackFramework: React 19Build Tool: ViteStyling: Tailwind CSS 4.0 (for modern, responsive UI/UX)Icons: Lucide ReactLogic: Custom React Hooks for cipher engines and modular math utilities.💻 Installation & SetupTo run this tool locally, you must have Node.js (v18.0 or higher) installed.1. Clone the Repositorygit clone [https://github.com/ShazidMahbub/crypto-visual.git](https://github.com/ShazidMahbub/crypto-visual.git)
+cd crypto-visual
+2. Install Dependenciesnpm install
+3. Run the Applicationnpm run dev
+The app will be available at http://localhost:5173.🖥️ Operating System Specific InstructionsWindowsInstall Node.js from nodejs.org.Open PowerShell or Command Prompt as an Administrator.Navigate to the project folder.If you face a script execution error, run:Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUserExecute npm install and npm run dev.macOS / LinuxInstall Node.js using Homebrew (brew install node) or your distribution's package manager.Open the Terminal.Navigate to the project folder.Ensure you have proper permissions for the node_modules directory.Execute npm install and npm run dev.📜 Academic CreditsCourse: CSE721 - Introduction to CryptographyDeveloper: Md. Shazid Bin Mahbub (16301077)Design Acknowledgement: Gemini (LLM) was utilized specifically for assisting with the Tailwind CSS UI design and responsive layout implementation.
